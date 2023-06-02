@@ -1,40 +1,52 @@
 body {
-	font-family: source-sans-pro;
-	background-color: #f2f2f2;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
+    font-family: source-sans-pro;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-style: normal;
+    font-weight: 200;
 }
 
 /* Navigation */
 header {
-	width: 100%;
-	height: 5%;
-    display: inline-block;
-	background-color: #52bad5;
-	border-bottom: 1px solid #2C9AB7;
+    width: 100%;
+    display: -webkit-box;
+    background-color: rgba(146, 146, 146, 1.00);
 }
 
+/* 
+.header-section {
+    width: 23%;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+    background-color: #F8F8F8;
+    padding-bottom: 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 3px;
+    padding-top: 20px;
+    border-bottom: 4px solid #6DC7D0;
+} */
 .logo {
     color: #fff;
-    font-weight: bold;
-    text-align: undefined;
-    width: 10%;
     float: left;
-    margin-top: 15px;
-    margin-left: 25px;
-    letter-spacing: 4px;
+    display: grid;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
 }
 
 nav {
     float: right;
+    padding: 1em;
     width: 50%;
-    text-align: right;
-    margin-right: 25px;
+    text-align: center;
+    margin-right: 3em;
 }
+
 header nav ul {
     list-style: none;
     float: right;
@@ -44,14 +56,79 @@ header nav ul {
 nav ul li {
     float: left;
     color: #FFFFFF;
-    font-size: 14px;
-    text-align: left;
-    margin-right: 25px;
-    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    letter-spacing: 3px;
     font-weight: bold;
     transition: all 0.3s linear;
 }
-ul li a {
+
+nav ul li:not(:last-child) {
+    border-right: 2px solid;
+}
+
+
+nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.hero {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.hero_header {
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    letter-spacing: 4px;
+
+}
+
+.tagline {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.light {
+    font-weight: bold;
+    color: #717070;
+}
+
+.background-placeholder {
+    background: url(../images/plaveholder.png);
+    background-color: #B3B3B3;
+    background-repeat: round;
+}
+
+
+.row {
+    width: 100%;
+    /* display: -webkit-box; */
+}
+
+.columns {
+    width: 25%;
+    float: left;
+    font-family: "Source Sans Pro";
+    color: #A5A5A5;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }

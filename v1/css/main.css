@@ -87,6 +87,8 @@ nav ul li a {
 }
 
 .hero {
+    height: 80vh;
+    width: 100%;
     padding-top: 10%;
     padding-bottom: 10%;
 }

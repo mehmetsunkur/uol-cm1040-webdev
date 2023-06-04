@@ -45,45 +45,9 @@ header {
     color: #fff;
     float: left;
     display: grid;
-    width: 100%;
+    width: 20%;
     margin: 1em;
     padding: 1em;
-}
-
-#header-nav {
-    float: right;
-    padding: 1em;
-    width: 50%;
-    text-align: center;
-    margin-right: 3em;
-}
-
-#header-nav ul {
-    list-style: none;
-    float: right;
-}
-
-
-#header-nav ul li {
-    float: left;
-    color: #FFFFFF;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 1em;
-    letter-spacing: 3px;
-    font-weight: bold;
-    transition: all 0.3s linear;
-}
-
-#header-nav ul li:not(:last-child) {
-    border-right: 2px solid;
-}
-
-
-#header-nav ul li a {
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 .hero {

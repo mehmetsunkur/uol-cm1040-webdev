@@ -82,7 +82,7 @@ header {
 }
 
 .background-placeholder {
-    background: url(../images/plaveholder.png);
+    background: url(../images/placeholder.png);
     background-color: #B3B3B3;
     background-repeat: round;
 }
@@ -111,6 +111,15 @@ header {
     width: 100%;
 }
 
+
+#exhibits>ul {
+    color: #fff;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+
 @media (min-width: 1024px){
     #homepage #exhibits>ul {
         justify-content: space-between;
@@ -129,11 +138,12 @@ header {
     }    
 }
 
-#exhibits>ul {
-    color: #fff;
-    list-style: none;
-    margin: 10px 0;
-    padding: 0;
+@media (min-width: 1024px){
+    #homepage #exhibits > ul {
+        justify-content: space-between;
+        margin: 15px 0;
+        padding: 0;
+    }    
 }
 
 #exhibits > ul li {
@@ -398,7 +408,6 @@ a.wbstl-btn,
 
 #events,
 #events-cal {
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 135px, rgba(255, 255, 255, 0) 135px), url("../images/paper-texture.jpg");
     margin-top: 30px;
     padding: 0 24px 5px;
     text-align: center;
@@ -411,12 +420,6 @@ a.wbstl-btn,
     }
 }
 
-
-@media(min-width: 1024px) {
-    #events {
-        background-image: linear-gradient(to bottom, rgb(255, 255, 255) 0px, rgb(255, 255, 255) 220px, rgba(255, 255, 255, 0) 220px), url("../images/paper-texture.jpg");
-    }
-}
 
 @media(min-width: 768px) {
     .cross-sell-box-wrapper {

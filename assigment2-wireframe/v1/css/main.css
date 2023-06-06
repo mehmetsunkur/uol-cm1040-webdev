@@ -147,8 +147,6 @@ header {
 }
 
 #exhibits > ul li {
-    background-color: #000;
-    background-position: 50% 50%;
     background-size: cover;
     margin: 10px 0;
     padding: 40px 10px;

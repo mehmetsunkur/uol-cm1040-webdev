@@ -173,11 +173,16 @@ header {
 }
 
 @media (min-width: 1024px){
+    #exhibits > ul li {
+        margin: 15px 0;
+        padding: 60px 20px;
+        width: 100%;
+    }
     #homepage #exhibits > ul li {
         margin: 15px 0;
         padding: 60px 20px;
         width: calc(33.3333% - 15px);
-    }    
+    }
 }
 
 

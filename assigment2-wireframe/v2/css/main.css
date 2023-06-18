@@ -43,6 +43,10 @@ header {
     padding-bottom: 10%;
 }
 
+.hero_content {
+    margin-top: calc(25% - 2em);
+}
+
 .hero_header {
     color: #FFFFFF;
     text-align: center;
@@ -328,7 +332,6 @@ a.wbstl-btn,
 }
 
 #awards>ul::after {
-    background-image: url(../images/badges-images-cap-right.svg);
     left: 100%;
 }
 

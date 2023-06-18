@@ -741,19 +741,19 @@ html {
 }
 
 
-#footer .social-legal {
+#footer .social-media {
     background-color: #1c468e;
     padding: 20px 20px 20px 20px;
 }
 
 @media (min-width: 768px){
-    #footer .social-legal {
+    #footer .social-media {
         padding: 20px 250px 20px 20px;
     }
 }
 
 @media (min-width: 1280px){
-    #footer .social-legal {
+    #footer .social-media {
         padding: 20px;
     }
 }
@@ -761,27 +761,27 @@ html {
 
 
 @media (min-width: 768px){
-    #footer .social-legal #social-links {
+    #footer .social-media #social-links {
         display: flex;
     }
 }
 
 @media (min-width: 1280px){
-    #footer .social-legal #social-links {
+    #footer .social-media #social-links {
         justify-content: center;
         margin-top: 25px;
         width: 100%;
     }
 }
 
-#footer .social-legal #social-links ul {
+#footer .social-media #social-links ul {
     display: flex;
     font-size: 26px;
     list-style: none;
     margin: 16px 0 16px -18px;
     padding: 0;
 }
-#footer .social-legal #social-links ul a {
+#footer .social-media #social-links ul a {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -789,7 +789,7 @@ html {
     width: 40px;
 }
 
-#footer .social-legal #social-links h2 {
+#footer .social-media #social-links h2 {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-size: 19px;
@@ -798,7 +798,7 @@ html {
 }
 
 @media (min-width: 768px){
-    #footer .social-legal #social-links h2 {
+    #footer .social-media #social-links h2 {
         margin: 6px 40px 0 0;
         width: auto;
     }    

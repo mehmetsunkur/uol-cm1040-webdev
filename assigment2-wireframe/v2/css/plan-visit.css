@@ -1,0 +1,32 @@
+.plan-visit-content h1 {
+  margin: 0 0 1.5em;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.plan-visit-content h2 {
+  margin: 0 0 1.5em;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.plan-visit-content > .accordion {
+  margin-bottom: 1em;
+}
+
+.plan-visit-content > .accordion label {
+  display: block;
+}
+
+.plan-visit-content > .accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: "-";
+}
+
+.plan-visit-content > .accordion .handle label:before {
+  content: "+";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+}

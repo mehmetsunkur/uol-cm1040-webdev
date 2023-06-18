@@ -9,23 +9,25 @@
   <!-- <link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css"> -->
   <link href="css/main.css" rel="stylesheet" type="text/css">
   <link href="css/navbar.css" rel="stylesheet" type="text/css">
+  <link href="css/accordion.css" rel="stylesheet" type="text/css">
+  <link href="css/plan-visit.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
   <!-- Main Container -->
-  <div id="homepage" class="container">
+  <div id="main" class="container">
     <!-- Header -->
     <header id="header">
       <div class="top-nav">
-        
+
         <div class="logo background-placeholder">
           <a class="tagline" href="./home.html">
             <p class="tagline">LOGO</p>
           </a>
         </div>
-        
+
         <input id="main-menu-toggle" type="checkbox">
         <label class='main-menu-button-container' for="main-menu-toggle">
           <span class='main-menu-button'></span>
@@ -36,189 +38,101 @@
         </ul>
       </div>
     </header>
-  <section class="hero background-placeholder" id="hero">
-    <h2 class="hero_header">HERO <span class="light">LIGHT</span></h2>
-    <p class="tagline">Light is a simple one page website</p>
-  </section>
-  <!-- Stats Gallery Section -->
-  <div id="exhibits">
-    <ul>
 
-      <li class="background-placeholder">
-        <a href="https://www.wbstudiotour.co.uk/explore-the-tour/sets/">
-          <h2>Breathtaking Sets</h2>
-        </a>
-        <div class="subtitle">Step into the Great Hall, Forbidden Forest and Diagon Alley</div>
-        <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/explore-the-tour/sets/">Find Out More</a>
-      </li>
-      <li class="background-placeholder">
-        <a href="https://www.wbstudiotour.co.uk/explore-the-tour/props/">
-          <h2>Authentic Props</h2>
-        </a>
-        <div class="subtitle">Explore the collection of beautifully crafted iconic props</div>
-        <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/explore-the-tour/props/">Find Out More</a>
-      </li>
-      <li class="background-placeholder">
-        <a href="https://www.wbstudiotour.co.uk/explore-the-tour/costumes/">
-          <h2>Original Costumes</h2>
-        </a>
-        <div class="subtitle">Discover the artistry in every stitch of the Wizarding World</div>
-        <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/explore-the-tour/costumes/">Find Out More</a>
-      </li>
-    </ul>
-  </div>
-  <div id="awards">
-    <h2>Award-Winning Tour</h2>
-    <div class="avg-rating">4.8 <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
-        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></div>
-    <div class="review-count">72,336 Google reviews, May 2023</div>
-    <ul>
-      <li>
-        <img src="./images/TC_L-300x300.png" alt="Travelers Choice 2021">
-        <div>2021 Travellers' Choice</div>
-      </li>
-      <li>
-        <img src="./images/PngItem_6092654-1-295x300.png" alt="Trip Advisor 2019 Award">
-        <div>Certificate of Excellence 2019</div>
-      </li>
-      <li>
-        <img src="./images/gta_2019_1-300x300.jpg" alt="Group Travel Awards Winner">
-        <div>Best Family Day Out 2019</div>
-      </li>
-      <li>
-        <img src="./images/award-dowtk-national-winners-big-kids-300x300.png" alt="Best for Big Kids in the UK">
-        <div>Best for Big Kids in the UK 2019</div>
-      </li>
-      <li>
-        <img src="./images/2019-Tourism-Awards-Logo-Herts-Winner-2019-AW-300x300.png"
-          alt="2019 Tourism Awards Logo Herts Stacked cmyk - Winner 2019">
-        <div>Large Visitor Attraction 2019</div>
-      </li>
-    </ul>
-  </div>
-  <div id="events">
-    <h2>What's On</h2>
-    <ul class="cross-sell-box-wrapper">
+    <div class="plan-visit-content">
 
-      <!-- #fbc01b -->
-      <li class="cross-sell-box background-placeholder">
-        <div class="border-box">
-          <div class="status">Now On:</div>
-          <h3>Discovering Hogwarts</h3>
-          <div class="timeframe">2nd May – 4th September 2023</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/discovering-hogwarts/">More Info</a>
+      <h1>BJCP Style 26. Trappist Ale</h1>
+      <section class="accordion">
+        <input type="checkbox" name="collapse" id="handle1" checked="checked">
+        <h2 class="handle">
+          <label for="handle1">26A. Trappist Single</label>
+        </h2>
+        <div class="content">
+          <p><strong>Overall Impression:</strong> A pale, bitter, highly attenuated and well carbonated Trappist ale,
+            showing a fruity-spicy Trappist yeast character, a spicy-floral hop profile, and a soft, supportive
+            grainy-sweet malt palate.</p>
+          <p><strong>History:</strong> While Trappist breweries have a tradition of brewing a lower-strength beer as a
+            monk’s daily ration, the bitter, pale beer this style describes is a relatively modern invention reflecting
+            current tastes. Westvleteren first brewed theirs in 1999, but replaced older lower-gravity products.</p>
         </div>
-      </li>
-
-
-      <!--  -->
-      <li class="coming-soon cross-sell-box background-placeholder">
-        <div class="border-box">
-          <div class="status">Coming Soon:</div>
-          <h3>Dark Arts</h3>
-          <div class="timeframe">15th September – 5th November 2023</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/dark-arts/">More Info</a>
+      </section>
+      <section class="accordion">
+        <input type="checkbox" name="collapse2" id="handle2">
+        <h2 class="handle">
+          <label for="handle2">26B. Belgian Dubbel</label>
+        </h2>
+        <div class="content">
+          <p><strong>Overall Impression:</strong> A deep reddish-copper, moderately strong, malty, complex Trappist ale
+            with rich malty flavors, dark or dried fruit esters, and light alcohol blended together in a malty
+            presentation that still finishes fairly dry.</p>
+          <p><strong>History:</strong> Originated at monasteries in the Middle Ages, and was revived in the mid-1800s
+            after the Napoleonic era.</p>
         </div>
-      </li>
-
-
-      <!--  -->
-      <li class="coming-soon cross-sell-box background-placeholder">
-        <div class="border-box">
-          <div class="status">Coming Soon:</div>
-          <h3>Hogwarts in the Snow</h3>
-          <div class="timeframe">11th November 2023 - 14th January 2024</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/hogwarts-in-the-snow/">More Info</a>
+      </section>
+      <section class="accordion">
+        <input type="checkbox" name="collapse2" id="handle3">
+        <h2 class="handle">
+          <label for="handle3">26C. Belgian Tripel</label>
+        </h2>
+        <div class="content">
+          <p><strong>Overall Impression:</strong> A pale, somewhat spicy, dry, strong Trappist ale with a pleasant rounded
+            malt flavor and firm bitterness. Quite aromatic, with spicy, fruity, and light alcohol notes combining with
+            the supportive clean malt character to produce a surprisingly drinkable beverage considering the high alcohol
+            level.</p>
+          <p><strong>History:</strong> Originally popularized by the Trappist monastery at Westmalle.</p>
         </div>
-      </li>
+      </section>
+      </div>
+    <!-- Footer Section -->
 
 
-      <!-- #c5e7e1 -->
-      <li class="always-on cross-sell-box background-placeholder">
-        <div class="border-box" style="border-color:#c5e7e1 !important;">
-          <div class="status" style="color:#c5e7e1 !important;">Always On:</div>
-          <h3 style="border-color:#c5e7e1 !important;">Professor Sprout’s Greenhouse</h3>
-          <div class="timeframe">Step into the greenhouse set</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/professor-sprouts-greenhouse/">More
-            Info</a>
-        </div>
-      </li>
+    <footer id="footer">
 
-
-      <!--  -->
-      <li class="always-on cross-sell-box background-placeholder">
-        <div class="border-box">
-          <div class="status">Always On:</div>
-          <h3>Diagon Alley</h3>
-          <div class="timeframe">BROWSE THE WIZARDING SHOPPING STREET</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/diagon-alley/">More Info</a>
-        </div>
-      </li>
-
-
-      <!--  -->
-      <li class="always-on cross-sell-box background-placeholder">
-        <div class="border-box">
-          <div class="status">Always On:</div>
-          <h3>Gringotts Wizarding Bank</h3>
-          <div class="timeframe">Withdraw some Galleons from Gringotts</div>
-          <a class="wbstl-btn wht" href="https://www.wbstudiotour.co.uk/whats-on/gringotts/">More Info</a>
-        </div>
-      </li>
-
-    </ul>
-  </div>
-  <!-- Footer Section -->
-
-
-  <footer id="footer">
-
-    <nav id="secondary-links">
-      <ul>
-        <li><a href="https://www.wbstudiotour.co.uk/schools/">Schools</a></li>
-        <li><a href="https://www.wbstudiotour.co.uk/travel-partners/">Travel Partners</a></li>
-        <li><a href="https://www.wbstudiotour.co.uk/private-events/">Private Events</a></li>
-        <li><a href="https://www.wbstudiotour.co.uk/additional-needs/">Tour Accessibility</a></li>
-      </ul>
-    </nav>
-    <div class="social-legal">
-      <nav id="social-links">
-        <h2>Follow Us</h2>
+      <nav id="secondary-links">
         <ul>
-          <li><a target="_blank" rel="noopener" href="https://www.facebook.com/wbtourlondon"><i aria-hidden="true"
-                class="fab fa-facebook-f"><span class="screen-reader-text">Facebook</span></i></a></li>
-          <li><a target="_blank" rel="noopener" href="https://www.instagram.com/wbtourlondon/"><i aria-hidden="true"
-                class="fab fa-instagram"><span class="screen-reader-text">Instagram</span></i></a></li>
-          <li><a target="_blank" rel="noopener" href="https://twitter.com/wbtourlondon"><i aria-hidden="true"
-                class="fab fa-twitter"><span class="screen-reader-text">Twitter</span></i></a></li>
-          <li><a target="_blank" rel="noopener" href="https://www.youtube.com/user/WBStudioTour"><i aria-hidden="true"
-                class="fab fa-youtube"><span class="screen-reader-text">YouTube</span></i></a></li>
-          <li><a target="_blank" rel="noopener" href="https://www.tiktok.com/@wbtourlondon"><i aria-hidden="true"
-                class="fab fa-tiktok"><span class="screen-reader-text">TikTok</span></i></a></li>
-          <li><a target="_blank" rel="noopener"
-              href="https://www.tripadvisor.com/Attraction_Review-g2691242-d2147749-Reviews-Warner_Bros_Studio_Tour_London_The_Making_of_Harry_Potter-Leavesden_Hertfordshir.html"><i
-                aria-hidden="true" class="fab fa-tripadvisor"><span
-                  class="screen-reader-text">TripAdvisor</span></i></a></li>
+          <li><a href="https://www.wbstudiotour.co.uk/schools/">Schools</a></li>
+          <li><a href="https://www.wbstudiotour.co.uk/travel-partners/">Travel Partners</a></li>
+          <li><a href="https://www.wbstudiotour.co.uk/private-events/">Private Events</a></li>
+          <li><a href="https://www.wbstudiotour.co.uk/additional-needs/">Tour Accessibility</a></li>
         </ul>
       </nav>
+      <div class="social-legal">
+        <nav id="social-links">
+          <h2>Follow Us</h2>
+          <ul>
+            <li><a target="_blank" rel="noopener" href="https://www.facebook.com/wbtourlondon"><i aria-hidden="true"
+                  class="fab fa-facebook-f"><span class="screen-reader-text">Facebook</span></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.instagram.com/wbtourlondon/"><i aria-hidden="true"
+                  class="fab fa-instagram"><span class="screen-reader-text">Instagram</span></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://twitter.com/wbtourlondon"><i aria-hidden="true"
+                  class="fab fa-twitter"><span class="screen-reader-text">Twitter</span></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.youtube.com/user/WBStudioTour"><i aria-hidden="true"
+                  class="fab fa-youtube"><span class="screen-reader-text">YouTube</span></i></a></li>
+            <li><a target="_blank" rel="noopener" href="https://www.tiktok.com/@wbtourlondon"><i aria-hidden="true"
+                  class="fab fa-tiktok"><span class="screen-reader-text">TikTok</span></i></a></li>
+            <li><a target="_blank" rel="noopener"
+                href="https://www.tripadvisor.com/Attraction_Review-g2691242-d2147749-Reviews-Warner_Bros_Studio_Tour_London_The_Making_of_Harry_Potter-Leavesden_Hertfordshir.html"><i
+                  aria-hidden="true" class="fab fa-tripadvisor"><span
+                    class="screen-reader-text">TripAdvisor</span></i></a></li>
+          </ul>
+        </nav>
 
-    </div>
+      </div>
 
 
-    <!-- OneTrust Cookies List start -->
+      <!-- OneTrust Cookies List start -->
 
-    <!--<div id="ot-sdk-cookie-policy"></div>-->
+      <!--<div id="ot-sdk-cookie-policy"></div>-->
 
-    <!-- OneTrust Cookies List end -->
-  </footer>
+      <!-- OneTrust Cookies List end -->
+    </footer>
 
-  <!-- <footer id="contact">
+    <!-- <footer id="contact">
       <p class="hero_header">GET IN TOUCH WITH ME</p>
       <div class="button">EMAIL ME </div>
     </footer> -->
-  <!-- Copyrights Section -->
-  <!-- <div class="copyright">&copy;2021 - <strong>GRID</strong></div> -->
+    <!-- Copyrights Section -->
+    <!-- <div class="copyright">&copy;2021 - <strong>GRID</strong></div> -->
   </div>
   <!-- Main Container Ends -->
 </body>

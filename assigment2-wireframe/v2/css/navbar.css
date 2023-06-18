@@ -30,6 +30,7 @@
 #header ul li a {
     color: #FFFFFF;
     text-decoration: none;
+    width: 100%;
 }
 
 @media (min-width: 1024px){
